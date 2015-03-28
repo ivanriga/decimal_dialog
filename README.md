@@ -1,3 +1,3 @@
 # decimal_dialog
 Android decimal dialog. Allow make fast input of integer and float numbers. 
-Example project wasadded
+Example project was added
