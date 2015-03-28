@@ -1,0 +1,30 @@
+package com.example.decimal_dialog_example;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.widget.TextView;
+
+public class MainActivity extends Activity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+    }
+	private void GetNumeric(int id, boolean bDecimal) {
+//		DigitDialog dd1 = new DigitDialog();
+		TextView et1 = (TextView) findViewById(id);
+		float f1 = 0;
+		try {
+
+			f1 = Float.parseFloat(et1.getText().toString());
+		} catch (Exception ex1) {
+			//
+		}
+		dd1.GetInput(this, f1, et1, bDecimal);
+		// EditText et1 = (EditText) findViewById(R.id.editText1);
+
+	}
+}

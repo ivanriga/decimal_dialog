@@ -1,0 +1,5 @@
+INDEX VERSION 1.127+C:\prg\android\examples\decimal_dialog_example\.metadata\.plugins\org.eclipse.jdt.core
+3101846900.index
+745941076.index
+2247241378.index
+1806848563.index
